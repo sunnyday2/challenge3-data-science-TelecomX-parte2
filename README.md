@@ -130,7 +130,7 @@ print("joblib:", joblib.__version__)
 
 - Ejecutarlo localmente en Visual Studio Code
 - Cargar el archivo .ipynb a tu Google Disk y ejecutar el notebook en [Google Colab](https://colab.research.google.com)
-- Ejecutar en el entorno virtual de GitHub ![Code space](./fig3.png)
+- Ejecutar en el entorno virtual de GitHub ![Code space](./img/fig3.png)
 
 ## ⚙️ Instalación y dependencias en el entorno virtual
 
