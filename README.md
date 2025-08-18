@@ -37,7 +37,7 @@ Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos
 7. Tipos de modelos y su selección para el proyecto
    - Diferencias entre modelos de Regresión y Clasificación
    - Selección del modelo
-8. Ajustando Modelos
+8. Ajustando modelos
    - Modelo de referencia 
    - Árboles de decisión
      - Decision Tree 
