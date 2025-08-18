@@ -36,6 +36,7 @@ Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos
    - Tiempo de contrato vs Gasto total 
 7. Tipos de modelos y su selección para el proyecto
    - Diferencias entre modelos de Regresión y Clasificación
+   - Selección del modelo
 8. Ajustando Modelos
    - Modelo de Referencia 
    - Árboles de Decisión
