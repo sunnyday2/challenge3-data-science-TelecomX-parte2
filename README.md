@@ -34,7 +34,9 @@ Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos
    - Tiempo de contrato vs Cancelación 
    - Distribución de Gasto total vs Cancelación 
    - Tiempo de contrato vs Gasto total 
-7. Ajustando Modelos
+7. Tipos de modelos y su selección para el proyecto
+   - Diferencias entre modelos de Regresión y Clasificación
+8. Ajustando Modelos
    - Modelo de Referencia 
    - Árboles de Decisión
      - Decision Tree 
@@ -44,12 +46,12 @@ Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos
    - Modelos basados en distancia
      - KNN (k-Nearest Neighbors)
      - Probando el modelo KNN
-8. Informes de métricas 
-9. Feature importances (atributos más importantes del modelo)
-10. Escogiendo y serializando el mejor modelo
+9. Informes de métricas 
+10. Feature importances (atributos más importantes del modelo)
+11. Escogiendo y serializando el mejor modelo
     - Evaluamos la tasa de acierto de los modelos
     - Serializando los modelos
-11. Conclusión
+12. Conclusión
     - Modelos de Clasificación Evaluados
     - Comparación de Modelos
     - Análisis de Curvas
