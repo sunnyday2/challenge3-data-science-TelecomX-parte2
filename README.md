@@ -39,10 +39,10 @@ Este proyecto analiza datos de una empresa de telecomunicaciones para identifica
      - KNN (k-Nearest Neighbors)
      - Probando el modelo KNN
 8. Informes de métricas 
-9. Feature importances (atributos más importantes del modelo) 
-10. Escogiendo y serializando el mejor modelo 
-   - Evaluamos la tasa de acierto de los modelos 
-   - Serializando los modelos 
+9. Feature importances (atributos más importantes del modelo)
+10. Escogiendo y serializando el mejor modelo
+   - Evaluamos la tasa de acierto de los modelos
+   - Serializando los modelos
 11. Conclusión 
    - Modelos de Clasificación Evaluados 
    - Comparación de Modelos 
@@ -66,6 +66,8 @@ Este proyecto analiza datos de una empresa de telecomunicaciones para identifica
 
 ---
 
+## ⚙️ Requerimientos
+
 Este proyecto requiere Python 3.8+ y las siguientes bibliotecas:
 - pandas
 - numpy
@@ -79,6 +81,8 @@ Este proyecto requiere Python 3.8+ y las siguientes bibliotecas:
 ```bash
 pip install pandas numpy matplotlib seaborn plotly
 
+# Puedes cargar el archivo .ipynb a tu Google Disk y ejecutar el notebook en [Google Colab](https://colab.research.google.com)
+# Puedes ejecutar en el entorno virtual de GitHub ![Code space](./fig3.png)
 
 # 🧰 ¿Qué necesitas para ejecutar .ipynb localmente?
 # ✅ 1. Tener Python instalado
