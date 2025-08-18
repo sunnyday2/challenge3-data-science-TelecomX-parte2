@@ -64,23 +64,23 @@ Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos
 
 ### Decision Tree
 
-Validación del modelo
+#### Validación del modelo
 ![Resultados](./img/dt.png)
 
 ### Random Forest
 
-Validación del modelo
+#### Validación del modelo
 ![Resultados](./img/rf.png)
 
-Curva Precision-Recall
+#### Curva Precision-Recall
 ![Curva Precision-Recall](./img/fig1.png)
 
-Curva ROC
+#### Curva ROC
 ![Curva ROC](./img/fig2.png)
 
 ### KNN (k-Nearest Neighbors)
 
-Validación del modelo
+#### Validación del modelo
 ![Resultados](./img/knn.png)
 
 ---
@@ -88,12 +88,40 @@ Validación del modelo
 ## 📝 Requerimientos
 
 Este proyecto requiere Python 3.8+ y las siguientes bibliotecas:
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- plotly
+
+- pandas: 2.2.2
+- numpy: 2.0.2
+- matplotlib: 3.10.0
+- seaborn: 0.13.2
+- yellowbrick: 1.5
+- plotly: 5.24.1
+- scikit-learn: 1.6.1
+- imblearn: 0.13.0
+- joblib: 1.5.1
 - notebook (para ejecutar archivos .ipynb localmente) o un entorno virtual
+
+```bash
+#### Para revisar las versiones instaladas
+import pandas as pd
+import numpy as np
+import matplotlib
+import seaborn as sns
+import yellowbrick
+import plotly
+import sklearn
+import imblearn
+import joblib
+
+print("pandas:", pd.__version__)
+print("numpy:", np.__version__)
+print("matplotlib:", matplotlib.__version__)
+print("seaborn:", sns.__version__)
+print("yellowbrick:", yellowbrick.__version__)
+print("plotly:", plotly.__version__)
+print("scikit-learn:", sklearn.__version__)
+print("imblearn:", imblearn.__version__)
+print("joblib:", joblib.__version__)
+```
   
 ## ¿Como puedes ejecutar un notebook?
 
@@ -129,4 +157,4 @@ pip install notebook pandas matplotlib seaborn plotly
 
 # ✅ 3. Ejecutar Jupyter Notebook
 jupyter notebook
-
+```
