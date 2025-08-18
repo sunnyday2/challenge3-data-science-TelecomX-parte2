@@ -87,17 +87,17 @@ Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos
 
 ## 📝 Requerimientos
 
-Este proyecto requiere Python 3.8+ y las siguientes bibliotecas:
+### Este proyecto requiere Python 3.8+ y las siguientes bibliotecas:
 
-- pandas: 2.2.2
-- numpy: 2.0.2
-- matplotlib: 3.10.0
-- seaborn: 0.13.2
-- yellowbrick: 1.5
-- plotly: 5.24.1
-- scikit-learn: 1.6.1
-- imblearn: 0.13.0
-- joblib: 1.5.1
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- yellowbrick
+- plotly
+- scikit-learn
+- imblearn
+- joblib
 - notebook (para ejecutar archivos .ipynb localmente) o un entorno virtual
 
 ```bash
