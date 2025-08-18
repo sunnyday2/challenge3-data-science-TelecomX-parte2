@@ -1,5 +1,5 @@
-# Praticando Machine Learning
-# Challenge ONE Data Science – Telecom X (parte 2)
+# Challenge ONE
+# Praticando Machine Learning - Data Science – Telecom X (parte 2)
 
 ## 📚 Análisis de Evasión de Clientes
 
