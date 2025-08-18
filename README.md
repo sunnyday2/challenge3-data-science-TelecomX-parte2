@@ -21,7 +21,7 @@ Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos
 
 ---
 
-## 📑 Tabla de Contenidos
+## 📑 Tabla de Contenido de Notebook
 
 1. Cargar el archivo CSV que contiene los datos tratados anteriormente 
 2. Eliminar Columnas Irrelevantes 
@@ -60,13 +60,28 @@ Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos
 
 ---
 
-## 📸 Visualizaciones
+## 📸 Algunas Visualizaciones de Notebook
 
-### Curva Precision-Recall
-![Curva Precision-Recall](./fig1.png)
+### Decision Tree
 
-### Curva ROC
-![Curva ROC](./fig2.png)
+Validación del modelo
+![Resultados](./img/dt.png)
+
+### Random Forest
+
+Validación del modelo
+![Resultados](./img/rf.png)
+
+Curva Precision-Recall
+![Curva Precision-Recall](./img/fig1.png)
+
+Curva ROC
+![Curva ROC](./img/fig2.png)
+
+### KNN (k-Nearest Neighbors)
+
+Validación del modelo
+![Resultados](./img/knn.png)
 
 ---
 
