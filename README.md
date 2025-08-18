@@ -24,13 +24,13 @@ Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos
 ## 📑 Tabla de Contenido de Notebook
 
 1. Cargar el archivo CSV que contiene los datos tratados anteriormente 
-2. Eliminar Columnas Irrelevantes 
+2. Eliminar columnas irrelevantes 
    - Revisar los valores de columnas codependientes 
    - Volver a los valores categóricos  
 3. Transformar las variables categóricas a formato numérico 
-4. Verificar la Proporción de Cancelación (Churn)  
+4. Verificar la proporción de cancelación (Churn)  
 5. Dividiendo los datos entre entrenamiento, validación y prueba  
-6. Análisis Dirigido 
+6. Análisis dirigido 
    - Tiempo de contrato vs Cancelación 
    - Distribución de Gasto total vs Cancelación 
    - Tiempo de contrato vs Gasto total 
@@ -38,8 +38,8 @@ Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos
    - Diferencias entre modelos de Regresión y Clasificación
    - Selección del modelo
 8. Ajustando Modelos
-   - Modelo de Referencia 
-   - Árboles de Decisión
+   - Modelo de referencia 
+   - Árboles de decisión
      - Decision Tree 
      - Probando el modelo Decision Tree 
      - Random Forest 
@@ -53,13 +53,13 @@ Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos
     - Evaluamos la tasa de acierto de los modelos
     - Serializando los modelos
 12. Conclusión
-    - Modelos de Clasificación Evaluados
+    - Modelos de Clasificación evaluados
     - Comparación de Modelos
-    - Análisis de Curvas
+    - Análisis de curvas
       - Curva Precision-Recall
       - Curva ROC
-    - Principales Factores que Influyen en la Cancelación
-    - Estrategias de Retención 
+    - Principales factores que influyen en la cancelación
+    - Estrategias de retención 
 
 ---
 
