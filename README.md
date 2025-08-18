@@ -43,12 +43,12 @@ Este proyecto analiza datos de una empresa de telecomunicaciones para identifica
 10. Escogiendo y serializando el mejor modelo
    - Evaluamos la tasa de acierto de los modelos
    - Serializando los modelos 
-12. Conclusión
+11. Conclusión
    - Modelos de Clasificación Evaluados
    - Comparación de Modelos
    - Análisis de Curvas
-      - Curva Precision-Recall
-      - Curva ROC
+     - Curva Precision-Recall
+     - Curva ROC
    - Principales Factores que Influyen en la Cancelación
    - Estrategias de Retención
 
