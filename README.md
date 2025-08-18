@@ -47,12 +47,15 @@ Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos
    - Modelos basados en distancia
      - KNN (k-Nearest Neighbors)
      - Probando el modelo KNN
-9. Informes de métricas 
-10. Feature importances (atributos más importantes del modelo)
-11. Escogiendo y serializando el mejor modelo
+9. Informes de métricas
+    - Curva ROC
+    - Curva Precision-Recall
+    - Comparación de curvas ROC entre modelos 
+11. Feature importances (atributos más importantes del modelo)
+12. Escogiendo y serializando el mejor modelo
     - Evaluamos la tasa de acierto de los modelos
     - Serializando los modelos
-12. Conclusión
+13. Conclusión
     - Modelos de Clasificación evaluados
     - Comparación de Modelos
     - Análisis de curvas
@@ -75,17 +78,16 @@ Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos
 #### Validación del modelo
 ![Resultados](./img/rf.png)
 
-#### Curva Precision-Recall
-![Curva Precision-Recall](./img/fig1.png)
-
-#### Curva ROC
-![Curva ROC](./img/fig2.png)
-
 ### KNN (k-Nearest Neighbors)
 
 #### Validación del modelo
 ![Resultados](./img/knn.png)
 
+#### Curva Precision-Recall
+![Curva Precision-Recall](./img/fig1.png)
+
+#### Curva ROC
+![Curva ROC](./img/fig2.png)
 ---
 
 ## 📝 Requerimientos
