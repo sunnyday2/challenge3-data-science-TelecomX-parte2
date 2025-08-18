@@ -35,22 +35,22 @@ Este proyecto analiza datos de una empresa de telecomunicaciones para identifica
      - Probando el modelo Decision Tree 
      - Random Forest 
      - Probando el modelo Random Forest 
-   - Modelos basados en distancia 
+   - Modelos basados en distancia
      - KNN (k-Nearest Neighbors)
-     - Probando el modelo KNN 
-8. Informes de métricas
-9. Feature importances (atributos más importantes del modelo)
-10. Escogiendo y serializando el mejor modelo
-   - Evaluamos la tasa de acierto de los modelos
+     - Probando el modelo KNN
+8. Informes de métricas 
+9. Feature importances (atributos más importantes del modelo) 
+10. Escogiendo y serializando el mejor modelo 
+   - Evaluamos la tasa de acierto de los modelos 
    - Serializando los modelos 
-11. Conclusión
-   - Modelos de Clasificación Evaluados
-   - Comparación de Modelos
-   - Análisis de Curvas
-     - Curva Precision-Recall
-     - Curva ROC
+11. Conclusión 
+   - Modelos de Clasificación Evaluados 
+   - Comparación de Modelos 
+   - Análisis de Curvas 
+     - Curva Precision-Recall 
+     - Curva ROC 
    - Principales Factores que Influyen en la Cancelación
-   - Estrategias de Retención
+   - Estrategias de Retención 
 
 ---
 
