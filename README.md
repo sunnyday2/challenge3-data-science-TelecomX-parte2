@@ -1,82 +1,106 @@
-# Informe de Modelos de Clasificación - Cancelación de Clientes
+# Praticando Machine Learning
+# Challenge ONE Data Science – Telecom X (parte 2)
 
-Este informe documenta los resultados obtenidos en el análisis de cancelación de clientes para la empresa **TelecomX LATAM**, utilizando distintos modelos de clasificación. El objetivo es identificar los principales factores que influyen en la **cancelación (churn)** y proponer estrategias de retención basadas en los hallazgos.
+## 📊 Análisis de Evasión de Clientes
 
----
-
-## Modelos de Clasificación Evaluados
-
-Se probaron distintos algoritmos para comparar su rendimiento en la predicción de cancelación de clientes:
-
-- **Dummy Classifier**: modelo base para tener un punto de referencia (baseline).
-- **Árbol de Decisión**: fácil de interpretar, permite identificar reglas claras de decisión.
-- **Random Forest**: modelo de ensamble, mejora la estabilidad y el rendimiento respecto a un único árbol.
-- **KNN (K-Nearest Neighbors)**: requiere normalización de datos, evalúa similitudes entre clientes.
-
-La métrica principal utilizada fue **recall**, ya que el interés está en **detectar la mayor cantidad de clientes que cancelan** (minimizando falsos negativos).
+Este proyecto analiza datos de una empresa de telecomunicaciones para identificar los factores que influyen en la evasión de clientes. Se utilizaron herramientas de ciencia de datos para visualizar, cuantificar y predecir comportamientos de abandono, con el objetivo de proponer estrategias de retención.
 
 ---
 
-## Comparación de Modelos
+## 🧠 Objetivo del Proyecto
 
-Los resultados obtenidos muestran que:
-
-- **Random Forest** logró el mejor equilibrio entre precisión y recall. Su capacidad de ensamble le permite capturar relaciones no lineales y reducir el sobreajuste.
-- El **Árbol de Decisión** fue útil para interpretar factores de riesgo, pero tuvo menor estabilidad y recall que Random Forest.
-- El **KNN**, aunque normalizado, no alcanzó el rendimiento esperado, probablemente por la dimensionalidad y dispersión de los datos.
-- El **Dummy Classifier** confirma que los demás modelos superan el rendimiento de la simple predicción aleatoria.
-
-En resumen, el **Random Forest** es el mejor modelo para este caso, alcanzando un **AUC de 0.83** y un **Average Precision (AP) de 0.61**, lo que indica un buen desempeño para la detección de clientes en riesgo.
+- Investigar los factores que inciden en la decisión de un cliente de cancelar el servicio.
+- Detectar patrones de evasión según edad, método de pago, permanencia y monto pagado.
+- Entregar visualizaciones claras y conclusiones accionables para el área de retención.
 
 ---
 
-## Análisis de Curvas
+## 📑 Tabla de Contenidos
 
-### Figura 1: Curva Precision-Recall (fig1.png)
-
-![Curva Precision-Recall](fig1.png)
-
-- La **precisión promedio es de 0.61**, lo que significa que, al clasificar clientes como en riesgo de cancelar, el 61% efectivamente cancela.
-- El comportamiento decreciente de la curva refleja que, a medida que se busca capturar más clientes (mayor recall), disminuye la precisión.
-- Esto indica un **trade-off**: se debe balancear entre captar la mayoría de clientes que cancelan (recall) y evitar falsos positivos.
-
-### Figura 2: Curva ROC (fig2.png)
-
-![Curva ROC](fig2.png)
-
-- El **AUC de 0.83** confirma que el modelo distingue bien entre clientes que cancelan y los que no.
-- La curva está muy por encima de la diagonal aleatoria, lo que valida el buen rendimiento del Random Forest.
-
----
-
-## Principales Factores que Influyen en la Cancelación
-
-Según las variables seleccionadas y los resultados del modelo, los factores más relevantes fueron:
-
-- **Duración del contrato**: los clientes con contratos de corto plazo presentan mayor probabilidad de cancelar.
-- **Uso de servicios adicionales**: quienes no contratan servicios extra (internet, TV, paquetes premium) muestran mayor tasa de abandono.
-- **Nivel de facturación mensual**: cuentas con cobros elevados tienen más riesgo de cancelación.
-- **Interacciones con servicio al cliente**: un alto número de reclamos o llamadas se asocia con mayor churn.
-- **Forma de pago**: clientes que usan métodos menos automáticos (ej. pago manual) tienden a cancelar más.
-
----
-
-## Estrategias de Retención Propuestas
-
-Con base en los resultados, se recomiendan las siguientes acciones:
-
-1. **Incentivar contratos a largo plazo**: ofrecer descuentos o beneficios por permanencia mínima.
-2. **Promocionar servicios adicionales**: paquetes personalizados que aumenten la satisfacción y dependencia del cliente.
-3. **Revisar política de precios**: segmentar promociones para clientes de alta facturación y riesgo.
-4. **Mejorar la atención al cliente**: programas de fidelización y respuestas rápidas a reclamos.
-5. **Facilitar pagos automáticos**: incentivar a los clientes a migrar a métodos de débito automático o tarjetas.
+1. Cargar el archivo CSV que contiene los datos tratados anteriormente 
+2. Eliminar Columnas Irrelevantes 
+   - Revisar los valores de columnas codependientes 
+   - Volver a los valores categóricos  
+3. Transformar las variables categóricas a formato numérico 
+4. Verificar la Proporción de Cancelación (Churn)  
+5. Dividiendo los datos entre entrenamiento, validación y prueba  
+6. Análisis Dirigido 
+   - Tiempo de contrato vs Cancelación 
+   - Distribución de Gasto total vs Cancelación 
+   - Tiempo de contrato vs Gasto total 
+7. Ajustando Modelos
+   - Modelo de Referencia 
+   - Árboles de Decisión
+     - Decision Tree 
+     - Probando el modelo Decision Tree 
+     - Random Forest 
+     - Probando el modelo Random Forest 
+   - Modelos basados en distancia 
+     - KNN (k-Nearest Neighbors)
+     - Probando el modelo KNN 
+8. Informes de métricas
+9. Feature importances (atributos más importantes del modelo)
+10. Escogiendo y serializando el mejor modelo
+   - Evaluamos la tasa de acierto de los modelos
+   - Serializando los modelos 
+12. Conclusión
+   - Modelos de Clasificación Evaluados
+   - Comparación de Modelos
+   - Análisis de Curvas
+      - Curva Precision-Recall
+      - Curva ROC
+   - Principales Factores que Influyen en la Cancelación
+   - Estrategias de Retención
 
 ---
 
-## Conclusión
+## 📸 Visualizaciones
 
-El análisis muestra que **Random Forest** es el mejor modelo para predecir la cancelación de clientes, proporcionando un balance adecuado entre recall y precisión.  
-Los factores más relevantes están relacionados con la **duración del contrato, facturación, servicios adicionales y experiencia del cliente**.  
-Las estrategias propuestas apuntan a **reducir el churn y aumentar la fidelización**, mejorando la sostenibilidad del negocio.
+### Curva Precision-Recall
+![Curva Precision-Recall](./fig1.png)
 
 ---
+
+### Curva ROC
+![Curva ROC](./fig.png)
+
+---
+
+Este proyecto requiere Python 3.8+ y las siguientes bibliotecas:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- plotly
+- notebook (para ejecutar archivos .ipynb localmente) o un entorno virtual
+  
+## ⚙️ Instalación y dependencias en el entorno virtual
+
+```bash
+pip install pandas numpy matplotlib seaborn plotly
+
+
+# 🧰 ¿Qué necesitas para ejecutar .ipynb localmente?
+# ✅ 1. Tener Python instalado
+# - Puedes descargarlo desde python.org.
+# - Asegúrate de marcar “Add Python to PATH” durante la instalación.
+
+### ✅ 2. Instalar Jupyter Notebook o JupyterLab
+# - Lo más cómodo es hacerlo dentro de un entorno virtual:
+
+# Crear entorno virtual (solo la primera vez)
+python -m venv venv
+
+# Activar el entorno
+# En Windows:
+venv\Scripts\activate
+
+# En macOS/Linux:
+source venv/bin/activate
+
+# Instalar Jupyter y librerías necesarias
+pip install notebook pandas matplotlib seaborn plotly
+
+# ✅ 3. Ejecutar Jupyter Notebook
+jupyter notebook
+
