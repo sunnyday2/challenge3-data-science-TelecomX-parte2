@@ -1,7 +1,7 @@
 # Praticando Machine Learning
 # Challenge ONE Data Science – Telecom X (parte 2)
 
-## 📊 Análisis de Evasión de Clientes
+## 📚 Análisis de Evasión de Clientes
 
 Este proyecto analiza datos de una empresa de telecomunicaciones para identificar los factores que influyen en la evasión de clientes. Se utilizaron herramientas de ciencia de datos para visualizar, cuantificar y predecir comportamientos de abandono, con el objetivo de proponer estrategias de retención.
 
@@ -12,6 +12,12 @@ Este proyecto analiza datos de una empresa de telecomunicaciones para identifica
 - Investigar los factores que inciden en la decisión de un cliente de cancelar el servicio.
 - Detectar patrones de evasión según edad, método de pago, permanencia y monto pagado.
 - Entregar visualizaciones claras y conclusiones accionables para el área de retención.
+
+---
+
+## 📊 Descripción de los datos
+
+Eso es la segunda parte del proyecto. La BBDD original y su diccionario de datos se puede encontrar [acá](https://github.com/sunnyday2/challenge2_data_science_TelecomX)
 
 ---
 
@@ -41,16 +47,16 @@ Este proyecto analiza datos de una empresa de telecomunicaciones para identifica
 8. Informes de métricas 
 9. Feature importances (atributos más importantes del modelo)
 10. Escogiendo y serializando el mejor modelo
-   - Evaluamos la tasa de acierto de los modelos
-   - Serializando los modelos
-11. Conclusión 
-   - Modelos de Clasificación Evaluados 
-   - Comparación de Modelos 
-   - Análisis de Curvas 
-     - Curva Precision-Recall 
-     - Curva ROC 
-   - Principales Factores que Influyen en la Cancelación
-   - Estrategias de Retención 
+    - Evaluamos la tasa de acierto de los modelos
+    - Serializando los modelos
+11. Conclusión
+    - Modelos de Clasificación Evaluados
+    - Comparación de Modelos
+    - Análisis de Curvas
+      - Curva Precision-Recall
+      - Curva ROC
+    - Principales Factores que Influyen en la Cancelación
+    - Estrategias de Retención 
 
 ---
 
@@ -59,14 +65,12 @@ Este proyecto analiza datos de una empresa de telecomunicaciones para identifica
 ### Curva Precision-Recall
 ![Curva Precision-Recall](./fig1.png)
 
----
-
 ### Curva ROC
-![Curva ROC](./fig.png)
+![Curva ROC](./fig2.png)
 
 ---
 
-## ⚙️ Requerimientos
+## 📝 Requerimientos
 
 Este proyecto requiere Python 3.8+ y las siguientes bibliotecas:
 - pandas
@@ -76,13 +80,16 @@ Este proyecto requiere Python 3.8+ y las siguientes bibliotecas:
 - plotly
 - notebook (para ejecutar archivos .ipynb localmente) o un entorno virtual
   
+## ¿Como puedes ejecutar un notebook?
+
+- Ejecutarlo localmente en Visual Studio Code
+- Ejecutar en el entorno virtual de GitHub ![Code space](./fig3.png)
+- Cargar el archivo .ipynb a tu Google Disk y ejecutar el notebook en [Google Colab](https://colab.research.google.com)
+
 ## ⚙️ Instalación y dependencias en el entorno virtual
 
 ```bash
 pip install pandas numpy matplotlib seaborn plotly
-
-# Puedes cargar el archivo .ipynb a tu Google Disk y ejecutar el notebook en [Google Colab](https://colab.research.google.com)
-# Puedes ejecutar en el entorno virtual de GitHub ![Code space](./fig3.png)
 
 # 🧰 ¿Qué necesitas para ejecutar .ipynb localmente?
 # ✅ 1. Tener Python instalado
