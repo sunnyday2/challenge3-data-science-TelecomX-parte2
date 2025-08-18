@@ -83,8 +83,8 @@ Este proyecto requiere Python 3.8+ y las siguientes bibliotecas:
 ## ¿Como puedes ejecutar un notebook?
 
 - Ejecutarlo localmente en Visual Studio Code
-- Ejecutar en el entorno virtual de GitHub ![Code space](./fig3.png)
 - Cargar el archivo .ipynb a tu Google Disk y ejecutar el notebook en [Google Colab](https://colab.research.google.com)
+- Ejecutar en el entorno virtual de GitHub ![Code space](./fig3.png)
 
 ## ⚙️ Instalación y dependencias en el entorno virtual
 
