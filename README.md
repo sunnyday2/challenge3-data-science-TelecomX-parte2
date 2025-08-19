@@ -1,3 +1,5 @@
+![Alura + One](./img/aluraOne.png)
+
 # Challenge ONE
 # Practicando Machine Learning - Data Science – Telecom X (parte 2)
 
